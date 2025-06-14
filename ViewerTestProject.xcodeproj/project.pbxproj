@@ -37,6 +37,20 @@
 			);
 			target = AE18886F2DF8E975009E087C /* ViewerTestProject */;
 		};
+		AE1888AD2DF8EF10009E087C /* Exceptions for "ViewerTestProject" folder in "ViewerTestProjectTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resource/SampleVideo_1280x720_30mb_h264_AAC.mp4,
+			);
+			target = AE1888852DF8E977009E087C /* ViewerTestProjectTests */;
+		};
+		AE1888AE2DF8EF10009E087C /* Exceptions for "ViewerTestProject" folder in "ViewerTestProjectUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resource/SampleVideo_1280x720_30mb_h264_AAC.mp4,
+			);
+			target = AE18888F2DF8E977009E087C /* ViewerTestProjectUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +58,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				AE1888982DF8E977009E087C /* Exceptions for "ViewerTestProject" folder in "ViewerTestProject" target */,
+				AE1888AD2DF8EF10009E087C /* Exceptions for "ViewerTestProject" folder in "ViewerTestProjectTests" target */,
+				AE1888AE2DF8EF10009E087C /* Exceptions for "ViewerTestProject" folder in "ViewerTestProjectUITests" target */,
 			);
 			path = ViewerTestProject;
 			sourceTree = "<group>";
